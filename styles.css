@@ -267,3 +267,27 @@ img {
 .carousel-button:hover {
     background-color: rgba(255, 255, 255, 1); /* Change background color on hover */
 }
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centra los íconos */
+    margin-top: 20px; /* Espacio entre el botón y los íconos */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espacio entre los íconos */
+}
+
+.social-icons i {
+    font-size: 40px; /* Tamaño de los íconos */
+    color: #007bff; /* Color de los íconos */
+}
+
+.visitor-count {
+    position: absolute; 
+    right: 20px; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 16px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
